@@ -19,6 +19,7 @@ export const SigninForm = () => {
         placeholder="Digite seu email"
         value={emailField}
         onChange={(text) => setEmailField(text)}
+        
       />
 
       <Input
@@ -26,6 +27,7 @@ export const SigninForm = () => {
         placeholder="Digite sua senha"
         value={passwordField}
         onChange={(text) => setPasswordField(text)}
+        
       />
 
       <button onClick={handleEnterButton}>Entrar</button>
