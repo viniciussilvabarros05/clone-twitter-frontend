@@ -17,9 +17,9 @@ const HomeHeader = () => {
       <div className="hidden lg:block text-2xl"></div>
       <div
         className="cursor-pointer lg:hidden"
-        onClick={() => setShowMenu(!showMenu)}
+        
       >
-        <FontAwesomeIcon icon={faBars} className="size-6" />
+        <FontAwesomeIcon icon={faBars} className="size-6" onClick={() => setShowMenu(true)} />
         {showMenu && (
           <HomeMenu
             closeAction={() => setShowMenu(!showMenu)}
