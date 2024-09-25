@@ -1,5 +1,6 @@
 import { SigninForm } from "@/components/auth/signin-form";
 import { Logo } from "@/components/ui/logo";
+import { ParticlesDemo } from "@/components/ui/particles";
 import Link from "next/link";
 
 
@@ -17,6 +18,7 @@ export default function Page(){
                 <div className="text-gray-500">Ainda não tem uma conta?</div>
                 <Link href={"/singup"} className="hover:underline">Cadastre-se</Link>
             </div>
+            <ParticlesDemo/>
         </div>
     )
 }
